@@ -371,13 +371,14 @@ color: #959595;
 
 .in_section_4 .grin .pink .red h4 {
     margin-left: 27px;
-    font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #363636;
 }
+
+.text_5 {font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;}
 
 .in_section_4 .grin .pink .red ul {
     margin-top: -18px;
@@ -442,7 +443,7 @@ color: #FFFFFF;
     margin-left: 10px;
 }
 
-.in_section_4 .grin_1 .pink_1 {
+.form_1 {
     width: 506px;
     height: 509px;   
     background: #131313;
@@ -467,18 +468,13 @@ color: #FFFFFF;
     margin-left: 700px;
 }
 
-.in_section_4 .grin_1 .pink_1 button {
-    border-radius: 0;
-text-transform: uppercase;
-}
-
-.in_section_4 .grin_1 .pink_1 .form_ {
+.form_1 .form_ {
     color: rgba(255, 255, 255, 0.5);
     margin-left: 49px;
     margin-top: 40px;
     }
 
-    .in_section_4 .grin_1 .pink_1 .form_ input {
+    .form_1 .form_ input {
         background: #131313;
         border: 0;
         color: white;
@@ -567,7 +563,6 @@ position: absolute;
 .in_section_6 {
     width: 1440px;
     height: 866px;
-    background-color: rgba(0, 255, 60, 0.26);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -577,6 +572,7 @@ position: absolute;
 display: flex;
 justify-content: space-between;
 width: 1230px;
+margin-top: -5px;
 }
 
 .text_4 {
@@ -592,39 +588,106 @@ color: #181818;
 }
 
 .in_section_6 .grin .pink {
-    background: #a7333337;
     display: flex;
     align-items: flex-start;
     position: relative;
     Width:376px;
     height: 428px;
     margin-top: 15px;
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     
-}
-
-#i1 {
-    margin-left: 18px;
-    margin-top: 25px;
-}
-#i2 {
-    position: absolute;
-margin: 0;
-top: 50px;
-left: 120px;
 }
 
 #i3 {
     margin-left: 18px;
+    margin-top: 18px;
 }
+
+.in_section_6 .grin .pink h3 {
+    position: absolute;
+    left: 115px;
+    top: 16px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.in_section_6 .grin .pink p {
+margin-left: 20px;
+margin-top: 20px;
+}
+
 #i4 {
-    margin-top: 128px;
-    margin-left: -15px;
+    position: absolute;
+    margin: 0;
+bottom: -50px;
+left: -15px;
 }
 
+.text_6 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
 
+.in_section_6 .grin_1 {
+    margin-top: 180px;
+    min-height: 220px;
+    width: 1440px;
+    background-image: url("../IMG/дома1.jpg");
+    opacity: 0.08;
+}
 
+.in_section_6 .form_1 {
+    width: 883px;
+    min-height: 445px;   
+    background: #131313;    
+    margin-left: 0;     
+    right: 0px;
+    top: -245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.form_1 .form_ input {
+    background: #131313;
+    border: 0;
+    color: white;
+    margin-left: 10px;
+    }
 
+    .form_1 .form_ {
+        color: rgba(255, 255, 255, 0.5);
+        margin-left: 49px;
+        margin-top: 40px;
+        }
+
+        #i6 {
+            display: flex;
+            justify-content: center;
+        }
+
+        #er1 {
+            width: 50px;
+        }
+
+        #u1u_1 {
+            width: 231px;
+            margin-right: 60px;
+        }
+        #u1u_2 {
+            width: 570px;
+            margin: 0px;
+        }
+
+#i8 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 .orange {
@@ -634,3 +697,5 @@ left: 120px;
 
 
 
+/*____________________________ИСПРАВИТЬ GRIN____(GREEN)_____________________*/
+/*____________________________HR - двойная полоса??_____________________*/

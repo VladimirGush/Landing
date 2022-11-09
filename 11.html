@@ -5,14 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+/* прячем input checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+ 
+/* стили для метки */
+label {
+  color: rgb(242, 16, 16);
+  background-color: aqua;
+  cursor: default;
+  font-weight: normal;
+  line-height: 30px;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+ 
+/* формируем внешний вид чекбокса в псевдоэлементе before */
+label:before {
+  content: "qqqqttttttttt ";
+  color: rgb(190, 5, 73);
+  display: inline-block;
+  font: 20px/30px Arial;
+  margin-right: 15px;
+  position: relative;
+  text-align: center;
+  text-indent: 0px;
+  width: 60px;
+  height: 60px;
+  background: rgba(85, 77, 77, 0.854);
+  border: 10px solid #4602f1;
+  border-image: initial;
+  vertical-align: middle;
+}
+ 
+/* вариации внешнего вида в зав-ти от статуса checkbox */
+/* checked */
+input:checked + label:before {
+  content: "v";
+}
+/* disabled */
+input:disabled + label:before {
+  background: #eee;
+  color: #aaa;
+}
+
+
+    </style>
 </head>
 <body>
-    <div>
-        111111111111
-    </div>
-    <br><br><br> 11111111111111
     
-    <hr>
+    <input type="checkbox" id="checkbox-id" />
+    <label for="checkbox-id">Чекбокс как есть</label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -20,4 +79,3 @@
 
 </body>
 </html>
-

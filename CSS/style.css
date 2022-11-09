@@ -43,6 +43,7 @@ box-shadow: 0px 0px 0px 0px;;
 border-radius: 2px;
 border: 0;
 color: white;
+text-transform: uppercase;
 }
 
 .but_1 {
@@ -238,7 +239,7 @@ margin-top: 1.5px;
     
 }
 
-.in_section_3 h3 {
+.text_7 {
 font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
@@ -558,14 +559,15 @@ position: absolute;
 .section_6 {
     display: flex;
     justify-content: center ;
+    position: relative;
 }
 
 .in_section_6 {
     width: 1440px;
-    height: 866px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .in_section_6 .grin {
@@ -635,7 +637,7 @@ left: -15px;
 
 .in_section_6 .grin_1 {
     margin-top: 180px;
-    min-height: 220px;
+    height: 220px;
     width: 1440px;
     background-image: url("../IMG/дома1.jpg");
     opacity: 0.08;
@@ -643,11 +645,10 @@ left: -15px;
 
 .in_section_6 .form_1 {
     width: 883px;
-    min-height: 445px;   
+    height: 445px;   
     background: #131313;    
-    margin-left: 0;     
+    margin-left: 0;    
     right: 0px;
-    top: -245px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -658,6 +659,13 @@ left: -15px;
     border: 0;
     color: white;
     margin-left: 10px;
+    }
+
+    .form_2 {
+      position: absolute;
+      z-index: 1;
+      top: 880px;
+      left: 280px;
     }
 
     .form_1 .form_ {
@@ -694,7 +702,47 @@ left: -15px;
     color:#E3B873;
 }
 
+.section_7 {
+    display: flex;
+    justify-content: center ;
+    height: 954px;
+    background-image: url("../IMG/image\ 7.2.jpg");
+    background-size: cover;
+    position: relative;
+    margin-top: -34px;
+}
 
+.section_7::before {
+    background-color: rgba(0, 0, 0, .7);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.in_section_7 {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.m1 {
+    margin-top: 275px;
+}
+.m2 {
+    margin-top: 26px;
+}
+.m3 {
+    margin-top: 35px;
+}
+
+.in_section_7 img {
+    margin: 0px 5px 0px 5px;
+}
 
 
 /*____________________________ИСПРАВИТЬ GRIN____(GREEN)_____________________*/

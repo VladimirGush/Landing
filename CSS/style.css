@@ -174,7 +174,7 @@ border: 0;
 color: #363636;  
 }
 
-#ee1 {
+.ee1 {
     text-align: center; 
 }
 
@@ -233,7 +233,7 @@ margin-top: 93px;
 .in_section_3 .green_3 {
     display: flex;
     justify-content: center;
-    margin-top: 39px;    
+    margin-top: 10px;    
 }
 
 .section_4 {
@@ -320,10 +320,11 @@ text-align: center;
 display:table
 }
 
-#ew1 {
+.ew1 {
     display:table-cell;
     vertical-align:middle;
 }
+
 .in_section_4 .green_1 .pink .red p {
     margin-left: 10px;
     display:table-cell;
@@ -365,7 +366,7 @@ display:table
         margin-left: 10px;
         }
 
-    #u2u {
+    .u2u {
 font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
@@ -374,7 +375,7 @@ line-height: 23px;
 color: #FFFFFF;
     }
 
-#u1u {
+.u1u {
    margin-left: 0px; 
    width: 408px;
    border-color: rgba(255, 255, 255, 0.2);
@@ -473,7 +474,7 @@ box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     
 }
 
-#i3 {
+.i3 {
     margin-left: 18px;
     margin-top: 18px;
 }
@@ -491,7 +492,7 @@ margin-left: 20px;
 margin-top: 20px;
 }
 
-#i4 {
+.i4 {
 position: absolute;
 margin: 0;
 bottom: -50px;
@@ -527,7 +528,7 @@ left: -15px;
     .form_2 {
       position: absolute;
       z-index: 2;
-      top: 880px;
+      top: 830px;
       left: 280px;
     }
 
@@ -546,7 +547,7 @@ left: -15px;
             width: 50px;
         }
 
-        #u1u_1 {
+        .u1u_1 {
             width: 231px;
             margin-right: 60px;
         }
@@ -681,13 +682,11 @@ line-height: 36px;
     }
 
     .text_7 {
-        font-family: 'Yeseva One', cursive;
+        font-family: 'Nunito Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 27px;
         }
 
 .text_8 {
@@ -724,14 +723,6 @@ text-transform: uppercase;
         font-size: 18px;
         line-height: 37px;
         }
-
-        .text_12 {
-            font-family: 'Nunito Sans', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 13px;
-            line-height: 27px;
-            }
 
     .form_ {
         font-family: 'Nunito Sans', sans-serif;

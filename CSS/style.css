@@ -23,11 +23,14 @@ align-items: center;
 text-transform: uppercase;
 }
 
+.header-content .orange {
+    margin-right:45px;
+}
+
 .menu {
     display: flex;
     text-decoration: none;
     list-style-type: none;
-
 }
 
 .menu-item {
@@ -55,6 +58,7 @@ height: 37px;
     }
 
 .button_white {
+    margin-left:30px;
     border-radius: 2px;
     border: 1px solid #FFFFFF;
     color: white;
@@ -89,9 +93,13 @@ margin-top: 19px;
 }
 
 .in_section_1 {
-width: 1170px;
+width: 1440px;
 position: relative;
 z-index: 1;
+}
+
+.in_section_1 .green {
+    margin-left: 134px;
 }
 
 .section_2 {
@@ -102,7 +110,7 @@ justify-content: center;
 }
 .in_section_2 {
     margin-top: 107px;
-    width: 1170px;
+    width: 1440px;
 }
 
 .in_section_2_green_ul a {
@@ -113,12 +121,18 @@ margin-right: 59px;
 display: flex;
 justify-content: end;
 margin: 0;
+margin-right: 134px;
 list-style-type: none;
 }
 
 .in_section_2_green {
 position: relative;
+left: 134px;
 }
+#i10 {
+    display: none;
+}
+
 
 .img {
 width: 679px;
@@ -128,6 +142,9 @@ top: 0px;
 left: 490px;
 right: 0;
 bottom: 0;
+}
+.img_1 {
+    display: none;
 }
 
 .in_section_2_pink {
@@ -708,12 +725,12 @@ text-transform: uppercase;
     }
 
     .text_10 {
-       font-family: 'Nunito Sans', sans-serif;
-       font-style: normal;
-       font-weight: 400;
-       font-size: 18px;
-       line-height: 25px;
-       text-transform: uppercase;
+        font-family: 'Yeseva One', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
        }
 
        .text_11 {
@@ -733,6 +750,162 @@ text-transform: uppercase;
         color: rgba(54, 54, 54, 0.5);
     }
 
+@media screen and (max-width:1300px){
+    .header{
+        height: 83px;
+        display: flex;
+        justify-content: center;
+        }
+    
+    .header-content .but_1 {
+        display: none;
+    }
 
+    .header-content .orange {
+        margin-right:18px;
+        margin-left:18px;
+    }
+
+    .mob{
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu {
+        display: none;
+        }
+
+        .but_2 {
+            width: 100%;
+            height: 51px;
+            margin-left: 0px;
+            } 
+
+    .in_section_1 .green .but_2 {
+        margin-top: 32px;
+    }
+
+    .button_white {
+        margin-top:30px;
+    }
+
+    .section_1 {
+       height: 476px;
+        }
+
+    .in_section_1 .green {
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 85px;
+    }  
+          
+    .in_section_1 h1 {
+        margin-top: 0px;
+        }
+     
+    .in_section_2 { /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+        margin-top: 0px;
+        width: 90%;
+    }
+
+    .in_section_2_green_ul {
+        display: none;
+        }
+
+    .in_section_2_green .img {
+        display: none;
+    }
+    .strelki {
+        display: none;
+    }
+    
+    .in_section_2_green {
+        position: relative;
+        left: 0px;
+        bottom: 50px;
+        }
+     
+    .in_section_2_pink{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(192, 127, 42, 0.253);
+        width: 100%; 
+    }
+
+    .img_1 {
+        display: inline;
+        position: relative;
+        margin-top: 45px;
+    }
+
+    .img_1_1 {
+        position: absolute;
+        top: 100px;
+        left: 15px;
+    }
+
+    .img_1_2{
+        position: absolute;
+        top: 100px;
+        right: 15px;
+    }
+
+    .in_section_2_pink h2 {
+        text-align: center;
+    }
+
+    #i9 {
+        text-align: center; 
+        margin-top: 12px;
+    }
+    #i11 {
+        display: none;
+    }
+    #i10 {
+        display: inline-block;
+    }
+
+    .in_section_2_pink_orange {
+        margin-top: 0px;
+    }
+
+    .in_section_2_pink_orange p{
+        margin-top: -2px;
+    }
+
+    .in_section_2_pink_orange h3{
+        margin-top: 30px;
+    }
+
+
+
+
+
+        .big_text {
+            font-size: 23px;
+            line-height: 132.83%;
+            }
+            .text {
+                font-size: 14px;
+                line-height: 135.84%;
+            }
+        .text_3 {
+            font-size: 22px;
+        line-height: 138.6%;
+            }
+        .text_9 {
+            font-size: 11px;
+            line-height: 158.48%; 
+        }
+        .text_10 {
+            font-size: 14px;
+            line-height: 138.6%;
+            }
+
+
+
+}
+    
 
   

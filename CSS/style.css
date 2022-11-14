@@ -186,6 +186,28 @@ margin-top: 1.5px;
     position: relative;
 }
 
+.in_section_3 .green_1 {
+    position: relative;
+    left: 310px;
+margin-top: 30px;
+background-color: black;
+width: 817px;
+height: 432px;
+    }
+    .green_1 img {
+        opacity: 0.3;
+    }
+
+ #play {
+    position: absolute;
+top: 260px;
+left: 660px;
+   }
+
+#mob_01 {
+    display: none;
+}
+
 .in_section_3 input {
 border: 0;  
 color: #363636;  
@@ -199,7 +221,10 @@ color: #363636;
     width: 30px;
     background:#E3B873;
     margin-top: 42px;
-    
+}
+
+.ee2 {
+    display: none;
 }
 
 .in_section_3 .green {
@@ -207,25 +232,6 @@ display: flex;
 justify-content: center;
 margin-top: -10px;
 }
-
-.in_section_3 .green_1 {
-    position: relative;
-    left: 310px;
-margin-top: 30px;
-background-color: black;
-width: 817px;
-height: 432px;
-
-    }
-    .green_1 img {
-        opacity: 0.3;
-    }
-
- #play {
-    position: absolute;
-top: 260px;
-left: 660px;
-   }
 
 .but_3 {
 width: 200px;
@@ -235,7 +241,7 @@ height: 51px;
 .in_section_3 form div hr {
     width: 231px;
     border: 1px solid rgba(54, 54, 54, 0.3);
-    transform: matrix(1, 0, 0, -1, 0, 0);  
+    transform: m atrix(1, 0, 0, -1, 0, 0);  
 }
 
 .in_section_3 form div {
@@ -247,12 +253,19 @@ margin-top: 93px;
     display: flex;
     justify-content: center;
 }
+
+.in_section_3 form button {
+    margin-left:70px;
+}
+
 .in_section_3 .green_3 {
     display: flex;
     justify-content: center;
     margin-top: 10px;    
 }
-
+.green_3_mob {
+    display: none;
+}
 .section_4 {
     margin-top: 0px ;
     display: flex;
@@ -829,7 +842,6 @@ text-transform: uppercase;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(192, 127, 42, 0.253);
         width: 100%; 
     }
 
@@ -878,6 +890,107 @@ text-transform: uppercase;
         margin-top: 30px;
     }
 
+    .section_3 {
+        background: #131313;
+        margin-top: -390px;
+    }
+
+    .in_section_3 {
+        width: 90%;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .in_section_3 .green_1 {
+        display: none;
+    }
+    #play {
+        display: none;
+    }
+
+    #mob_01 {
+        display: block;
+        background-color: black;
+        width: 340px;
+        height: 207px;
+        position: relative;
+        margin-top: 35px;
+    }
+
+    #mob_02_1 {
+        opacity: 0.3; 
+    }
+
+    #mob_02 {
+        display: block;
+        position: absolute;
+        top: 55px;
+        left: 125px;
+    }
+
+    .ee2 {
+        display: block;
+        color: white;
+    }
+    .ee3 {
+        display: none;
+    }
+
+    .in_section_3 form{
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        }
+        
+        .in_section_3 form div hr {
+            width: 100%;
+            border: 1px solid white;
+            opacity: 30%;
+        }
+        #io1 {
+            margin-top: 50px;
+        }
+
+        .in_section_3 form div {
+            width: 100%;
+        }
+        
+        .in_section_3 form button {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 35px;
+            margin-bottom: -25px;
+        }
+
+        .in_section_3 .green_3 {
+            display: none;
+        }
+
+        .in_section_3 .green_3_mob {
+            display: flex;
+            margin-top: 0px;    
+        }
+
+        .in_section_3 .green_3_mob p {
+            margin-left: 10px;
+            margin-top: 16px;
+        }
+        .in_section_3 input {
+            border: 0;  
+            color: white;  
+            background-color: #131313;
+            }
+
+
+
+
+
+
+
 
 
 
@@ -902,7 +1015,22 @@ text-transform: uppercase;
             font-size: 14px;
             line-height: 138.6%;
             }
-
+        .text_11 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18.7px;
+        }    
+        
+        .form_ {
+            font-family: 'Nunito Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            color: rgba(255, 255, 255, 0.5);
+        }
 
 
 }

@@ -298,6 +298,8 @@ margin-top: 93px;
     width: 330px;
     height: 286px;
     color: #959595;
+    margin-left: 0px;
+box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
 }
 
 .in_section_4 .green .pink .red h4 {
@@ -330,7 +332,6 @@ width: 703px;
 height: 645px;   
 display: flex;
 align-items: flex-start;
-margin-left: 0px;
 }
 
 .in_section_4 .green_1 .pink .red {
@@ -459,6 +460,10 @@ position: absolute;
     margin-left: 100px;
 }
 
+.img_03_mob {
+    display: none;
+}
+
 .in_section_5 .green {
     position: absolute;
     right: 499px;
@@ -584,6 +589,10 @@ left: -15px;
         #u1u_2 {
             width: 570px;
             margin: 0px;
+        }
+
+        #oo1 {
+            margin-left: -10px;
         }
 
 #i8 {
@@ -984,6 +993,182 @@ text-transform: uppercase;
             color: white;  
             background-color: #131313;
             }
+        
+        .section_4 {
+        margin-top: 0px;
+    }
+
+    .in_section_4 {
+        width: 90%;
+        margin-top: 58px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .in_section_4 .green_1 {
+        display: none;
+        }
+
+    .in_section_4 .green_2 {
+        display: none;
+    }
+    .in_section_4 .green {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .in_section_4 .green .pink .red {
+        margin-top: -141px;
+        margin-left: -122px;
+        width: 270px;
+        height: 241px;
+    }
+
+    .in_section_4 .green .pink button {
+        margin-left: -202px;
+        margin-top: -21px;
+        margin-bottom: 59px;
+        width: 190px;
+        height: 40px;
+        }
+
+        .section_5 {
+            margin-top: 0px;
+            background-image: none;
+        }
+        .section_5::before {
+            background:none;
+            }
+    
+        .in_section_5 {
+            width: 90%;
+            margin-top: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height:205px;
+        }
+
+        .in_section_5 ul, .in_section_5 .green, .in_section_5 .green_1a{
+            display: none;
+        }
+
+        .te2 {
+            margin-top: 5px;
+            margin-left: 0px;
+            text-align: center;
+            color: #E3B873;
+        }
+
+        .img_03_mob {
+            display: block;
+            position: relative;
+        }
+
+        .img_03_1_mob {
+          position: absolute; 
+          top: 85px;
+          left: 5px;
+        }
+        .img_03_2_mob {
+            position: absolute; 
+            top: 85px;
+            right: 5px;
+          }
+
+          .section_6 {
+            background: #131313;
+        }
+    
+        .in_section_6 {
+            width: 90%;
+            margin-top: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .in_section_6 h3, .in_section_6 img, .y1 {
+            display: none;
+        }
+        .in_section_6 .green .pink {
+            display: none;
+        }
+        .in_section_6 .green_1 {
+            background-image: none;
+            margin-top: 0px;
+            height: 0;
+             }
+
+        .in_section_6 .form_1 {
+    width: 100%;  
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    }
+    .in_section_6 .form_2 {
+      position: relative;
+      z-index: 2;
+      top: 0px;
+      left: 0px;
+    }
+    .ee1 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .y2 {
+        width: 100%;
+        margin: 45px 0 15px 0;
+    }
+
+    #i6 {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form_1 .form_ {
+        color: rgba(255, 255, 255, 0.5);
+        margin-left: 0px;
+        margin-top: 0px;
+        }
+
+    #oo1 {
+        margin-left: 0px;
+    }
+    #oo2 {
+        margin-top: -20px;
+    }
+    #oo2 .u2u {
+        position: relative;
+        top: -2px;
+        right: -4px;
+    }
+
+    #i8 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #u1u_2 {
+        width: 170px;
+        margin: 0px;
+    }
+    .form_ {
+        margin-bottom: 40px;
+    }
+
+
+
+
+
 
 
 
@@ -1007,6 +1192,15 @@ text-transform: uppercase;
             font-size: 22px;
         line-height: 138.6%;
             }
+            .text_5 {
+    font-size: 15px;
+    line-height: 138.6%;
+    }
+
+    .text_7 {
+        font-size: 13px;
+        line-height: 169.8%;
+        }
         .text_9 {
             font-size: 11px;
             line-height: 158.48%; 

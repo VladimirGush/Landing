@@ -5,7 +5,7 @@ body {
 font-weight: 400;
 font-size: 11px;
 line-height: 15px;
-    margin: 0;
+margin: 0;
 }
 
 .header{
@@ -40,11 +40,12 @@ text-transform: uppercase;
 }
 
 .button {
-    background: #E3B873;
+background: #E3B873;
 border-radius: 2px;
 border: 0;
 color: white;
 text-transform: uppercase;
+font-size: 13px;
 }
 
 .but_1 {
@@ -53,9 +54,9 @@ height: 37px;
 }
 
 .but_2 {
-    width: 207px;
-    height: 51px;
-    }
+width: 207px;
+height: 51px;
+ }
 
 .button_white {
     margin-left:30px;
@@ -253,6 +254,8 @@ margin-top: 93px;
 
 .in_section_3 form button {
     margin-left:70px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 .in_section_3 .green_3 {
@@ -263,6 +266,7 @@ margin-top: 93px;
 .green_3_mob {
     display: none;
 }
+
 .section_4 {
     margin-top: 0px ;
     display: flex;
@@ -563,14 +567,15 @@ left: -15px;
 
     .form_1 .form_ {
         color: rgba(255, 255, 255, 0.5);
-        margin-left: 30px;
-        margin-top: 40px;
+     margin: 0 50px 0 50px;
+     margin-top: 43px;
         }
 
 
         #i6 {
             display: flex;
             justify-content: center;
+            margin-top: 0px;
         }
 
         #er1 {
@@ -587,7 +592,8 @@ left: -15px;
         }
 
         #oo1 {
-            margin-left: -30px;
+            margin-right: 50px;
+            margin-top: 40px;
         }
 
 #i8 {
@@ -762,6 +768,11 @@ text-transform: uppercase;
         line-height: 37px;
         }
 
+        .text_12 {
+            font-size: 18px;
+            line-height: 29px;
+        }
+
     .form_ {
         font-family: 'Nunito Sans', sans-serif;
         font-style: normal;
@@ -769,6 +780,18 @@ text-transform: uppercase;
         font-size: 13px;
         line-height: 21px;
         color: rgba(54, 54, 54, 0.5);
+    }
+
+    .kursiv {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 100;
+    }
+
+    .in-put::placeholder {
+        color: white;
     }
 
 @media screen and (max-width:1300px){
@@ -925,9 +948,9 @@ text-transform: uppercase;
         }
 
         #play {
-            position: absolute;
-        top: 180px;
-        left: 150px;
+            position: relative;
+        top:-130px;
+        left: 0px;
            }
 
            #play img {
@@ -950,24 +973,40 @@ text-transform: uppercase;
         align-items: flex-start;
         }
         
+        .in_section_3 form button {
+            margin-left:0px;
+            margin-top: 30px;
+            margin-bottom: -10px;
+            color: white;
+        }
+        
+        .but_3 {
+            width: 100%;
+            height: 51px;
+            }
+
         .in_section_3 form div hr {
             width: 100%;
             border: 1px solid white;
             opacity: 30%;
         }
+
+        .in-put1::placeholder {
+            color: white;
+        }
+        
+        #ee {
+            width: 30px;
+            background:#E3B873;
+            margin-top: -10px;
+        }
+
         #io1 {
             margin-top: 50px;
         }
 
         .in_section_3 form div {
             width: 100%;
-        }
-        
-        .in_section_3 form button {
-            width: 100%;
-            margin-left: 0;
-            margin-top: 35px;
-            margin-bottom: -25px;
         }
 
         .in_section_3 .green_3 {
@@ -1141,6 +1180,7 @@ text-transform: uppercase;
         flex-direction: column;
         align-items: flex-start;
          width: 100%;
+         margin-top: -px;
     }
     .form_1 .form_ {
         color: rgba(255, 255, 255, 0.5);
@@ -1152,9 +1192,10 @@ text-transform: uppercase;
 
     #oo1 {
         margin-left: 0px;
+        margin-top: 40px;
     }
     #oo2 {
-        margin-top: -20px;
+        margin-top: 0px;
     }
     #oo2 .u2u {
         position: relative;
@@ -1163,7 +1204,7 @@ text-transform: uppercase;
     }
 
     #i8 {
-        margin-top: 0px;
+        margin-top: 20px;
         margin-bottom: 0px;
     }
 
@@ -1181,9 +1222,13 @@ text-transform: uppercase;
         width: 100%;
     }
 
+    .in_section_6 .form_ {
+        margin-top: 32px;
+    }
+
     .section_7 {
         background-color: #131313;
-        height: 430px;
+        height: 450px;
         background-image: url("");
     }
     .section_7::before {
@@ -1192,7 +1237,7 @@ text-transform: uppercase;
 
     .in_section_7 {
         width: 90%;
-        margin-top: 0px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
